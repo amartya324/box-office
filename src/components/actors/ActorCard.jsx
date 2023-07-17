@@ -1,9 +1,11 @@
+import { SearchCard, SearchImgWrapper } from '../common/SearchCard';
+
 const ActorCard = ({ name, image, gender, country, birthday, deathday }) => {
   return (
-    <div>
-      <div>
+    <SearchCard>
+      <SearchImgWrapper>
         <img src={image} alt={name} />
-      </div>
+      </SearchImgWrapper>
       <h1>
         {name} {Boolean(gender) && `(${gender})`}{' '}
       </h1>
@@ -12,7 +14,7 @@ const ActorCard = ({ name, image, gender, country, birthday, deathday }) => {
 
       {Boolean(birthday) && <p>Born {birthday}</p>}
       <p>{deathday ? `Died ${deathday}` : 'Alive'}</p>
-    </div>
+    </SearchCard>
   );
 };
 
