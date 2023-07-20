@@ -4,12 +4,12 @@ The app uses an API to fetch the data for the content. The navigation panel cont
 All the shows that you star will go to the Starred section. You can also view More Details about a particular show by clicking Read More.
 The page contains image, title, summary, details, seasons and cast.
 
-#Live Link
+# Live Link
 [Click Me](https://amartya324.github.io/box-office/)
 # Technologies
 *Html *CSS(SASS) *ReactJs *GitHub 
 
-#PWA- Progressive Web App
+# PWA- Progressive Web App
 you can download the app on your mobile or desktop.
 
 
