@@ -7,7 +7,10 @@ The page contains image, title, summary, details, seasons and cast.
 # Live Link
 [Click Me](https://amartya324.github.io/box-office/)
 # Technologies
-*Html *CSS(SASS) *ReactJs *GitHub 
+* Html
+* CSS(SASS)
+* ReactJs
+* GitHub 
 
 # PWA- Progressive Web App
 you can download the app on your mobile or desktop.
